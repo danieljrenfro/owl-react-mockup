@@ -1,0 +1,53 @@
+.participant {
+  display: flex;
+  margin: 10px 5px;
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  align-self: center;
+  margin-right: 5px;
+}
+
+.participant-name {
+  margin: 10px 0px 10px 0px;
+  font-size: 15px;
+}
+
+.participant-data {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+}
+
+.status-text {
+  margin: 0px;
+  color: grey;
+}
+
+.status-dot {
+  margin-right: 15px;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.green-dot {
+  background-color: green;
+}
+
+.grey-dot {
+  background-color: grey;
+}

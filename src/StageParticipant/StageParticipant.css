@@ -1,0 +1,16 @@
+.stage-participant {
+  flex-grow: 1;
+  width: 50%;
+}
+
+.stage-avatar {
+  border-radius: 50%;
+  background-color: white;
+  vertical-align: auto;
+}
+
+.stage-name {
+  color: white;
+  font-size: 15px;
+  justify-self: flex-start;
+}
