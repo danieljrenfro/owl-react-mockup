@@ -1,13 +1,13 @@
-import ParticipantList from './ParticipantList/ParticipantList';
 import Stage from './Stage/Stage';
+import ChatPanel from './ChatPanel/ChatPanel';
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <ParticipantList/>
-      <Stage/>
+      <ChatPanel />
+      <Stage />
     </div>  
   );
 }

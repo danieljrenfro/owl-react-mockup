@@ -5,6 +5,7 @@
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  height: 100vh;
 }
 
 .current-user-avatar {
